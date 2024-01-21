@@ -18,11 +18,18 @@
 button {
   margin: 20px;
   padding: 10px 20px;
-  border: none;
+  border: 1px solid #030303;
   border-radius: 5px;
-  background-color: #2222aa;
-  color: white;
+  background-color: #22aa5f;
+  color: rgb(0, 0, 0);
   cursor: pointer;
+  border-radius: 20px;
+  padding: 25px;
+}
+button:hover{
+  background-color: aquamarine;
+  border: none;
+  box-shadow: 2px 2px 2px black;
 }
 
 h4 {
